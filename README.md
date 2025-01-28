@@ -18,3 +18,6 @@ This library is designed to work with STM32 microcontrollers that use the HAL (H
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/emulated-eeprom.git
+2. Add the Files to Your Project: Copy the emulated_eeprom.c and emulated_eeprom.h files into your STM32 project directory. Include emulated_eeprom.h in your source files where needed.
+
+3. Link HAL Library: Ensure you have the STM32 HAL library linked to your project as this library uses the HAL_FLASH_Unlock, HAL_FLASH_Program, and related functions.
