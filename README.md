@@ -15,9 +15,10 @@ Embedded systems often require non-volatile storage for saving configuration par
 This library is designed to work with STM32 microcontrollers that use the HAL (Hardware Abstraction Layer) library, specifically the STM32G0 series. Other STM32 microcontrollers may also work with minor adjustments.
 
 ## Installation
-1. **Clone the Repository**:
+1. **Dowload or Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/emulated-eeprom.git
+   git clone https://github.com/MuhammadAli1132001/Emulated-EEPROM-With-STM32.git
+
 2. Add the Files to Your Project: Copy the emulated_eeprom.c and emulated_eeprom.h files into your STM32 project directory. Include emulated_eeprom.h in your source files where needed.
 
 3. Link HAL Library: Ensure you have the STM32 HAL library linked to your project as this library uses the HAL_FLASH_Unlock, HAL_FLASH_Program, and related functions.
