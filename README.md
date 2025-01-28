@@ -15,7 +15,7 @@ Embedded systems often require non-volatile storage for saving configuration par
 This library is designed to work with STM32 microcontrollers that use the HAL (Hardware Abstraction Layer) library, specifically the STM32G0 series. Other STM32 microcontrollers may also work with minor adjustments.
 
 ## Installation
-1. **Dowload or Clone the Repository**:
+1. **Download or Clone the Repository**:
    ```bash
    git clone https://github.com/MuhammadAli1132001/Emulated-EEPROM-With-STM32.git
 
